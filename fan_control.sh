@@ -24,6 +24,7 @@ do
                     -a "[fan:0]/GPUTargetFanSpeed=$FAN_SPEED" \
                     -a "[fan:1]/GPUTargetFanSpeed=$FAN_SPEED" 1>/dev/null 2>/dev/null
                     #-a "[fan:1]/GPUTargetFanSpeed=$FAN_SPEED" >> /var/log/gpu_fan_control.log 2>/dev/null
+                    # Add more lines if you have more than two fans
 
     # Log opcional
     #echo "$(date): Temp=$TEMPERATURE, FanSpeed=$FAN_SPEED" >> /var/log/gpu_fan_control.log
